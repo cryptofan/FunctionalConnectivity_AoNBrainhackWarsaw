@@ -1,0 +1,63 @@
+1	Hemostasis
+2	HIV Infection
+3	Cell Cycle
+4	transcription
+5	ncRNA processing
+6	Signaling in Immune system
+7	chromatin modification
+8	no enrichment
+9	DNA repair
+10	Processing of Capped Intron-Containing Pre-mRNA
+11	Circadian clock system
+12	zinc ion binding
+13	Gene Expression
+14	nucleotide binding
+15	no enrichment
+16	no enrichment
+17	no enrichment
+18	no enrichment
+19	pantetheine hydrolase activity
+20	immune response
+21	negative regulation of macromolecule metabolic process
+22	no enrichment
+23	Signaling by Wnt
+24	RNA processing
+25	RNA splicing
+26	no enrichment
+27	no enrichment
+28	no enrichment
+29	no enrichment
+30	Signalling by NGF
+31	no enrichment
+32	no enrichment
+33	no enrichment
+34	no enrichment
+35	modification-dependent macromolecule catabolic process
+36	no enrichment
+37	IFN alpha signaling pathway
+38	no enrichment
+39	no enrichment
+40	no enrichment
+41	Axon guidance mediated by netrin
+42	no enrichment
+43	no enrichment
+44	no enrichment
+45	no enrichment
+46	no enrichment
+47	no enrichment
+48	Signaling in Immune system
+49	no enrichment
+50	transition metal ion binding
+51	no enrichment
+52	protein catabolic process
+53	adenyl nucleotide binding
+54	establishment of protein localization
+55	IL 5 Signaling Pathway
+56	no enrichment
+57	no enrichment
+58	transcription
+59	Telomere Maintenance
+60	no enrichment
+61	no enrichment
+62	no enrichment
+63	response to bacterium
