@@ -1,0 +1,14 @@
+-1	Unlabelled
+0	Zero
+1	DMN
+2	Visual_2
+3	Frontoparietal_1
+4.5	Visual_1
+5	Dorsal_Attention
+7	Ventral_Attention
+8	Salience
+9	Cingulo_opercular
+10	Somatomotor
+11.5	Frontoparietal 2
+15	Medial_Parietal
+16	Parieto_occipital
