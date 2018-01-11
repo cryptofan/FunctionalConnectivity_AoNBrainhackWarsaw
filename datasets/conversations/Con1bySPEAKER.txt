@@ -1,0 +1,239 @@
+Time	Event
+3580	:
+3580	b,H 01
+20620	AdHosttWhenSpeaking,b,S-Leg t1 t2 t3
+20620	Adap/H,b,S-Leg
+20640	AdHosttWhenSpeaking,e,S-Leg t1 t2 t3
+20640	Adap/H,e,S-Leg
+26490	AdHosttWhenSpeaking,b,OM t1 t2 t3
+26490	Adap/H,b,OM
+26510	AdHosttWhenSpeaking,e,OM t1 t2 t3
+26510	Adap/H,e,OM
+29362	b,G 01
+29368	e,H 01
+30441	e,G 01
+30810	b,H 02
+41452	b,G 02
+41838	e,H 02
+42350	e,G 02
+43029	b,H 03
+43130	Adap/G,b,UM
+43180	Adap/G,e,UM
+45089	e,H 03
+45170	b,G 03
+45441	e,G 03
+45880	b,H 04
+53582	e,H 04
+54077	b,G 04
+63610	e,G 04
+63724	b,H 05
+66208	e,H 05
+66276	b,G 05
+76144	e,G 05
+76328	b,H 06
+78040	AdHosttWhenSpeaking,b,UM t8
+78040	Adap/H,b,UM
+78070	AdHosttWhenSpeaking,e,UM t8
+78070	Adap/H,e,UM
+80075	b,G 06
+80402	e,H 06
+85259	e,G 06
+85415	b,H 07
+87246	e,H 07
+87363	b,G 07
+89220	e,G 07
+89925	b,H 08
+91420	Adap/G,b,UM
+91450	Adap/G,e,UM
+94909	b,G 08
+95057	e,H 08
+118963	e,G 08
+119134	b,H 09
+120055	Adap/G,b,S-Head
+120070	Adap/G,e,S-Head
+121991	e,H 09
+122038	b,G 09
+128649	e,G 09
+129014	b,H 10
+141415	e,H 10
+141415	b,G 10
+163473	e,G 10
+163791	b,H 11
+168207	b,G 11
+168223	e,H 11
+178714	e,G 11
+179104	b,H 12
+183295	AdHosttWhenSpeaking,b,UM t14
+183295	Adap/H,b,UM
+183310	AdHosttWhenSpeaking,e,UM t14
+183310	Adap/H,e,UM
+196324	b,G 12
+196671	e,H 12
+209760	AdGuestWhenSpeaking,b,UM t13
+209760	Adap/G,b,UM
+209790	AdGuestWhenSpeaking,e,UM t13
+209790	Adap/G,e,UM
+210415	e,G 12
+211311	b,H 13
+220072	e,H 13
+220948	b,G 13
+243810	e,G 13
+244179	b,H 14
+246402	b,G 14
+248012	e,G 14
+248014	e,H 14
+249134	b,H 15
+266202	b,G 15
+266298	e,H 15
+298088	e,G 15
+298686	b,H 16
+323343	e,H 16
+323766	b,G 16
+324801	e,G 16
+324967	b,H 17
+325070	Adap/G,b,UM
+325090	Adap/G,e,UM
+325740	b,G 17
+325764	e,H 17
+333320	Adap/H,b,UM
+333340	Adap/H,e,UM
+361860	Adap/H,b,OM
+361880	Adap/H,e,OM
+368727	e,G 17
+369477	b,H 18
+371130	Adap/G,b,S-Head
+371190	Adap/G,e,S-Head
+381226	e,H 18
+381259	b,G 18
+384971	e,G 18
+385074	b,H 19
+391440	e,H 19
+391506	b,G 19
+393883	e,G 19
+394194	b,H 20
+398142	e,H 20
+398610	b,G 20
+440740	AdGuestWhenSpeaking,b,UM t22
+440740	Adap/G,b,UM
+440760	AdGuestWhenSpeaking,e,UM t22
+440760	Adap/G,e,UM
+442690	Adap/H,b,UM
+442710	Adap/H,e,UM
+461948	e,G 20
+462477	b,H 21
+466450	Adap/G,b,UM
+466480	Adap/G,e,UM
+476029	e,H 21
+477168	b,G 21
+484560	Adap/H,b,UM
+484610	Adap/H,e,UM
+491585	Adap/H,b,UM
+491620	Adap/H,e,UM
+525355	Adap/H,b,OM
+525370	Adap/H,e,OM
+529480	e,G 21
+530064	b,H 22
+542155	Adap/G,b,UM
+542170	Adap/G,e,UM
+546710	AdHosttWhenSpeaking,b,S-Head t24
+546710	Adap/H,b,S-Head
+546740	AdHosttWhenSpeaking,e,S-Head t24
+546740	Adap/H,e,S-Head
+547311	b,G 22
+547403	e,H 22
+547940	b,H 23
+548129	e,G 22
+552909	e,H 23
+553382	b,G 23
+582840	e,G 23
+583134	b,H 24
+587462	e,H 24
+587519	b,G 24
+610640	AdGuestWhenSpeaking,b,UM t26
+610640	Adap/G,b,UM
+610660	AdGuestWhenSpeaking,e,UM t26
+610660	Adap/G,e,UM
+626194	e,G 24
+627104	b,H 25
+630730	Adap/G,b,UM
+630750	Adap/G,e,UM
+636713	e,H 25
+637046	b,G 25
+660655	AdGuestWhenSpeaking,b,UM t27
+660655	Adap/G,b,UM
+660670	AdGuestWhenSpeaking,e,UM t27
+660670	Adap/G,e,UM
+666655	AdGuestWhenSpeaking,b,S-Head t27
+666655	Adap/G,b,S-Head
+666670	AdGuestWhenSpeaking,e,S-Head t27
+666670	Adap/G,e,S-Head
+669350	AdGuestWhenSpeaking,b,UM t27
+669350	Adap/G,b,UM
+669400	AdGuestWhenSpeaking,e,UM t27
+669400	Adap/G,e,UM
+677310	Adap/H,b,OM
+677370	Adap/H,e,OM
+705008	e,G 25
+705636	b,H 26
+712990	e,H 26
+713506	b,G 26
+742688	e,G 26
+743360	b,H 27
+755671	e,H 27
+755935	b,G 27
+757795	AdGuestWhenSpeaking,b,UM  t29
+757795	Adap/G,b,UM
+757840	AdGuestWhenSpeaking,e,UM  t29
+757840	Adap/G,e,UM
+761454	e,G 27
+762029	b,H 28
+765164	e,H 28
+765922	b,G 28
+769545	e,G 28
+769610	b,H 29
+780415	e,H 29
+780792	b,G 29
+783985	AdGuestWhenSpeaking,b,UM t31 t32 t33
+783985	Adap/G,b,UM
+784010	AdGuestWhenSpeaking,e,UM t31 t32 t33
+784010	Adap/G,e,UM
+788775	AdGuestWhenSpeaking,b,UM t31 t32 t33
+788775	Adap/G,b,UM
+788790	AdGuestWhenSpeaking,e,UM t31 t32 t33
+788790	Adap/G,e,UM
+793450	AdGuestWhenSpeaking,b,UM t31 t32 t33
+793450	Adap/G,b,UM
+793480	AdGuestWhenSpeaking,e,UM t31 t32 t33
+793480	Adap/G,e,UM
+795205	AdGuestWhenSpeaking,b,UM t31 t32 t33
+795205	Adap/G,b,UM
+795220	AdGuestWhenSpeaking,e,UM t31 t32 t33
+795220	Adap/G,e,UM
+798103	e,G 29
+799104	b,H 30
+800727	b,G 30
+800880	e,H 30
+805760	AdGuestWhenSpeaking,b,UM t34 t35
+805760	Adap/G,b,UM
+805800	AdGuestWhenSpeaking,e,UM t34 t35
+805800	Adap/G,e,UM
+814909	e,G 30
+814955	b,H 31
+817253	e,H 31
+817290	b,G 31
+818337	b,H 32
+818780	AdGuestWhenSpeaking,b,UM t36
+818780	Adap/G,b,UM
+818800	AdGuestWhenSpeaking,e,UM t36
+818800	Adap/G,e,UM
+819051	e,G 31
+827194	e,H 32
+827684	b,G 32
+828079	e,G 32
+828155	Adap/G,b,UM
+828170	Adap/G,e,UM
+828253	b,H 33
+846059	e,H 33
+846305	b,G 33
+847274	e,G 33
+847274	&

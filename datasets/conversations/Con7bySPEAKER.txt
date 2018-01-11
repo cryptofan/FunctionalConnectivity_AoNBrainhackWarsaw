@@ -1,0 +1,715 @@
+Time	Event
+1878	:
+1878	WINDOWS,b,
+3158	b,H 01
+3870	e,H 01
+4259	b,G 01
+5008	e,G 01
+5086	b,H 02
+7094	WINDOWS,e,
+23337	WINDOWS,b,
+25350	e,H 02
+25378	b,G 02
+26018	e,G 02
+26684	b,H 03
+28688	WINDOWS,e,
+35823	WINDOWS,b,
+37807	e,H 03
+38284	b,G 03
+40851	e,G 03
+41415	AdapRight,b, S-Head
+41415	adap/G,b,S-Head
+41445	AdapRight,e, S-Head
+41445	adap/G,e,S-Head
+42035	b,H 04
+45300	AdapLeft,b, UM
+45300	A Host Speaking,b,UM t4
+45300	adap/H,b,UM
+45324	AdapLeft,e, UM
+45324	A Host Speaking,e,UM t4
+45324	adap/H,e,UM
+45333	e,H 04
+45754	b,G 04
+46222	e,G 04
+47175	b,H 05
+48210	e,H 05
+48333	b,G 05
+48851	e,G 05
+49148	b,H 06
+50230	AdapRight,b, S-Head
+50230	adap/G,b,S-Head
+50255	AdapRight,e, S-Head
+50255	adap/G,e,S-Head
+52263	e,H 06
+52910	b,G 06
+54930	WINDOWS,e,
+61831	WINDOWS,b,
+63771	b,H 07
+63814	e,G 06
+65070	e,H 07
+65870	b,G 07
+67620	AdapRight,b, S-Head
+67620	A Guest Speaking,b,S-Head t7
+67620	adap/G,b,S-Head
+67648	e,G 07
+67648	A Guest Speaking,e,S-Head t7
+67683	AdapRight,e, S-Head
+67683	adap/G,e,S-Head
+67685	b,H 08
+69508	e,H 08
+69740	b,G 08
+71160	AdapLeft,b, S-Face
+71160	adap/H,b,S-Face
+71189	AdapLeft,e, S-Face
+71189	adap/H,e,S-Face
+71773	WINDOWS,e,
+72961	adap/H,b,OM
+72978	adap/H,e,OM
+73521	adap/H,b,S-Face
+73582	adap/H,e,S-Face
+76216	A Guest Speaking,b,S-Head t8
+76216	adap/G,b,S-Head
+76255	A Guest Speaking,e,S-Head t8
+76255	adap/G,e,S-Head
+77860	WINDOWS,b,
+78056	AdapLeft,b, S-Face
+78056	adap/H,b,S-Face
+78084	AdapLeft,e, S-Face
+78084	adap/H,e,S-Face
+78859	b,H 09
+79851	e,G 08
+80889	WINDOWS,e,
+81208	WINDOWS,b,
+83004	b,G 09
+83192	e,H 09
+85034	WINDOWS,e,
+85980	adap/H,b,S-Face
+86010	adap/H,e,S-Face
+87860	adap/H,b,OM
+87910	adap/H,e,OM
+101429	A Guest Speaking,b,S-Head t9
+101429	adap/G,b,S-Head
+101489	A Guest Speaking,e,S-Head t9
+101489	adap/G,e,S-Head
+102989	A Guest Speaking,b,S-Face t9
+102989	adap/G,b,S-Face
+103030	A Guest Speaking,e,S-Face t9
+103030	adap/G,e,S-Face
+103550	adap/H,b,S-Face
+103572	adap/H,e,S-Face
+104830	adap/H,b,OM
+104880	adap/H,e,OM
+107831	WINDOWS,b,
+109160	AdapRight,b, S-Head
+109160	A Guest Speaking,b,S-Head t9
+109160	adap/G,b,S-Head
+109193	AdapRight,e, S-Head
+109193	A Guest Speaking,e,S-Head t9
+109193	adap/G,e,S-Head
+109833	e,G 09
+109894	b,H 10
+111333	e,H 10
+111425	b,G 10
+113425	WINDOWS,e,
+121280	adap/H,b,S-Face
+121343	adap/H,e,S-Face
+127367	WINDOWS,b,
+127581	AdapLeft,b, S-Leg
+127581	adap/H,b,S-Leg
+127604	AdapLeft,e, S-Leg
+127604	adap/H,e,S-Leg
+129370	e,G 10
+130350	b,H 11
+132338	WINDOWS,e,
+136454	WINDOWS,b,
+138218	b,G 11
+138438	e,H 11
+140421	b,H 12
+140462	e,G 11
+142425	b,G 12
+143055	e,H 12
+144454	WINDOWS,e,
+148541	WINDOWS,b,
+150170	AdapRight,b, S-Head
+150170	A Guest Speaking,b,S-Head t13
+150170	adap/G,b,S-Head
+150204	AdapRight,e, S-Head
+150204	A Guest Speaking,e,S-Head t13
+150204	adap/G,e,S-Head
+150518	e,G 12
+150740	b,H 13
+152925	e,H 13
+153222	b,G 13
+155222	WINDOWS,e,
+156309	WINDOWS,b,
+157380	AdapLeft,b, S-Face
+157380	adap/H,b,S-Face
+157432	AdapLeft,e, S-Face
+157432	adap/H,e,S-Face
+158055	b,H 14
+158070	AdapRight,b, S-Head
+158070	A Guest Speaking,b,S-Head t14
+158070	adap/G,b,S-Head
+158132	AdapRight,e, S-Head
+158132	A Guest Speaking,e,S-Head t14
+158132	adap/G,e,S-Head
+158314	e,G 13
+159510	AdapRight,b, S-Face
+159510	adap/G,b,S-Face
+159571	AdapRight,e, S-Face
+159571	adap/G,e,S-Face
+159888	e,H 14
+160185	b,G 14
+161510	AdapRight,b, S-Head
+161510	A Guest Speaking,b,S-Head 
+161510	adap/G,b,S-Head
+161551	AdapRight,e, S-Head
+161551	A Guest Speaking,e,S-Head 
+161551	adap/G,e,S-Head
+163103	b,H 15
+163129	e,G 14
+166222	e,H 15
+166601	b,G 15
+167092	b,H 16
+168203	e,H 16
+168628	WINDOWS,e,
+175860	adap/H,b,S-Face
+175910	adap/H,e,S-Face
+181637	A Guest Speaking,b,S-Head t15
+181637	adap/G,b,S-Head
+181693	A Guest Speaking,e,S-Head t15
+181693	adap/G,e,S-Head
+182715	WINDOWS,b,
+184685	e,G 15
+184983	b,H 17
+187005	WINDOWS,e,
+194295	WINDOWS,b,
+196277	e,H 17
+197747	b,G 16
+199773	WINDOWS,e,
+213560	adap/H,b,OM
+213580	adap/H,e,OM
+217740	A Guest Speaking,b,S-Head t16 t17 t18
+217740	adap/G,b,S-Head
+217765	A Guest Speaking,e,S-Head t16 t17 t18
+217765	adap/G,e,S-Head
+239920	A Guest Speaking,b,S-Head t16 t17 t18
+239920	adap/G,b,S-Head
+239979	A Guest Speaking,e,S-Head t16 t17 t18
+239979	adap/G,e,S-Head
+240573	adap/H,b,S-Face
+240598	adap/H,e,S-Face
+241541	WINDOWS,b,
+242592	b,H 18
+243555	e,G 16
+244599	WINDOWS,e,
+245280	WINDOWS,b,
+246648	b,G 17
+247267	e,H 18
+248657	WINDOWS,e,
+248976	WINDOWS,b,
+250400	AdapRight,b, S-Face
+250400	A Guest Speaking,b,S-Face t19
+250400	adap/G,b,S-Face
+250448	AdapRight,e, S-Face
+250448	A Guest Speaking,e,S-Face t19
+250448	adap/G,e,S-Face
+250962	e,G 17
+251555	b,H 19
+254037	e,H 19
+254240	b,G 18
+254869	AdapRight,b, S-Head
+254869	A Guest Speaking,b,S-Head t20
+254869	adap/G,b,S-Head
+254918	AdapRight,e, S-Head
+254918	A Guest Speaking,e,S-Head t20
+254918	adap/G,e,S-Head
+255092	b,H 20
+255129	e,G 18
+255260	AdapLeft,b, S-Face
+255260	A Host Speaking,b,S-Face  t21
+255260	adap/H,b,S-Face
+255279	AdapLeft,e, S-Face
+255279	A Host Speaking,e,S-Face  t21
+255279	adap/H,e,S-Face
+257121	WINDOWS,e,
+265121	WINDOWS,b,
+267092	e,H 20
+267322	b,G 19
+267759	e,G 19
+269092	b,H 21
+269388	b,G 20
+269611	e,H 21
+271148	e,G 20
+271201	b,H 22
+271722	e,H 22
+272393	b,G 21
+274411	WINDOWS,e,
+278180	adap/H,b,OM
+278200	adap/H,e,OM
+300295	WINDOWS,b,
+301406	b,H 23
+302277	e,G 21
+302666	b,G 22
+304148	e,H 23
+304166	e,G 22
+305053	b,H 24
+305325	AdapRight,b, S-Face
+305325	adap/G,b,S-Face
+305367	AdapRight,e, S-Face
+305367	adap/G,e,S-Face
+307063	WINDOWS,e,
+308324	WINDOWS,b,
+310314	e,H 24
+310537	b,G 23
+312585	WINDOWS,e,
+318846	WINDOWS,b,
+318900	AdapRight,b, UM
+318900	A Guest Speaking,b,UM t23
+318900	adap/G,b,UM
+318918	AdapRight,e, UM
+318918	A Guest Speaking,e,UM t23
+318918	adap/G,e,UM
+320796	e,G 23
+321037	b,H 25
+323703	e,H 25
+324058	b,G 24
+326078	WINDOWS,e,
+328991	WINDOWS,b,
+329814	b,H 26
+330611	e,H 26
+330962	e,G 24
+331537	b,G 25
+333585	WINDOWS,e,
+336130	A Guest Speaking,b,S-Head t24
+336130	adap/G,b,S-Head
+336173	A Guest Speaking,e,S-Head t24
+336173	adap/G,e,S-Head
+350000	adap/H,b,OM
+350031	adap/H,e,OM
+356266	WINDOWS,b,
+358240	e,G 25
+359233	AdapRight,b, S-Head
+359233	adap/G,b,S-Head
+359275	AdapRight,e, S-Head
+359275	adap/G,e,S-Head
+360722	b,H 27
+360833	AdapRight,b, S-Face
+360833	adap/G,b,S-Face
+360897	AdapRight,e, S-Face
+360897	adap/G,e,S-Face
+361833	e,H 27
+362259	b,G 26
+364266	WINDOWS,e,
+365266	WINDOWS,b,
+367010	AdapRight,b, UM + S-Head + OM
+367010	A Guest Speaking,b,UM + S-Head + OM t25
+367010	adap/G,b,UM + S-Head + OM
+367051	AdapRight,e, UM + S-Head + OM
+367051	A Guest Speaking,e,UM + S-Head + OM t25
+367051	adap/G,e,UM + S-Head + OM
+367240	e,G 26
+367956	b,H 28
+369976	WINDOWS,e,
+370092	WINDOWS,b,
+371983	b,G 27
+372074	e,H 28
+374005	WINDOWS,e,
+377005	WINDOWS,b,
+378407	b,H 29
+378998	e,G 27
+381240	e,H 29
+381796	b,G 28
+382092	e,G 28
+382481	b,H 30
+383388	e,H 30
+383611	b,G 29
+385599	WINDOWS,e,
+388541	WINDOWS,b,
+390537	e,G 29
+390611	b,H 31
+392599	WINDOWS,e,
+403512	WINDOWS,b,
+405500	e,H 31
+406478	b,G 30
+408483	WINDOWS,e,
+410050	adap/H,b,OM
+410100	adap/H,e,OM
+411050	adap/H,b,S-Face
+411100	adap/H,e,S-Face
+413330	A Guest Speaking,b,S-Head t29
+413330	adap/G,b,S-Head
+413377	A Guest Speaking,e,S-Head t29
+413377	adap/G,e,S-Head
+413730	adap/H,b,S-Face
+413780	adap/H,e,S-Face
+415410	adap/H,b,OM
+415438	adap/H,e,OM
+444520	adap/H,b,OM
+444580	adap/H,e,OM
+456106	WINDOWS,b, 
+458111	e,G 30
+458209	AdapRight,b,  S-Head
+458209	adap/G,b,S-Head
+458255	AdapRight,e,  S-Head
+458255	adap/G,e,S-Head
+459490	AdapRight,b,  S-Face
+459490	adap/G,b,S-Face
+459516	AdapRight,e,  S-Face
+459516	adap/G,e,S-Face
+460050	AdapRight,b,  S-Head
+460050	adap/G,b,S-Head
+460067	AdapRight,e,  S-Head
+460067	adap/G,e,S-Head
+460084	AdapRight,b,  S-Face
+460084	adap/G,b,S-Face
+460105	AdapRight,e,  S-Face
+460105	adap/G,e,S-Face
+460833	b,H 32
+464740	b,G 31
+464833	e,H 32
+466758	WINDOWS,e, 
+472270	adap/H,b,OM
+472295	adap/H,e,OM
+472486	WINDOWS,b,
+474481	e,G 31
+474839	b,H 33
+475610	AdapRight,b, S-Face
+475610	adap/G,b,S-Face
+475633	AdapRight,e, S-Face
+475633	adap/G,e,S-Face
+477770	AdapRight,b, S-Head
+477770	adap/G,b,S-Head
+477799	AdapRight,e, S-Head
+477799	adap/G,e,S-Head
+477833	b,G 32
+478722	e,H 33
+479050	AdapRight,b, S-Face
+479050	A Guest Speaking,b,S-Face t31
+479050	adap/G,b,S-Face
+479104	AdapRight,e, S-Face
+479104	A Guest Speaking,e,S-Face t31
+479104	adap/G,e,S-Face
+479848	WINDOWS,e,
+492960	adap/H,b,OM
+492984	adap/H,e,OM
+493703	WINDOWS,b,
+494642	AdapLeft,b, S-Face
+494642	adap/H,b,S-Face
+494700	AdapLeft,e, S-Face
+494700	adap/H,e,S-Face
+495703	e,G 32
+495950	AdapRight,b, UM
+495950	adap/G,b,UM
+495981	AdapRight,e, UM
+495981	adap/G,e,UM
+497592	b,H 34
+498800	AdapLeft,b, OM
+498800	A Host Speaking,b,OM t35
+498800	adap/H,b,OM
+498825	AdapLeft,e, OM
+498825	A Host Speaking,e,OM t35
+498825	adap/H,e,OM
+500814	e,H 34
+501708	b,G 33
+504833	b,H 35
+504925	e,G 33
+505888	e,H 35
+505888	b,G 34
+509531	b,H 36
+509555	e,G 34
+510314	b,G 35
+510351	e,H 36
+511190	AdapRight,b, S-Head
+511190	A Guest Speaking,b,S-Head t34
+511190	adap/G,b,S-Head
+511211	AdapRight,e, S-Head
+511211	A Guest Speaking,e,S-Head t34
+511211	adap/G,e,S-Head
+512326	WINDOWS,e,
+517940	A Guest Speaking,b,S-Face t34
+517940	adap/G,b,S-Face
+518000	A Guest Speaking,e,S-Face t34
+518000	adap/G,e,S-Face
+529630	WINDOWS,b,
+530410	AdapRight,b, S-Head
+530410	A Guest Speaking,b,S-Head t34
+530410	adap/G,b,S-Head
+530435	AdapRight,e, S-Head
+530435	A Guest Speaking,e,S-Head t34
+530435	adap/G,e,S-Head
+531296	b,H 37
+531629	e,G 35
+532170	AdapRight,b, S-Face
+532170	adap/G,b,S-Face
+532192	AdapRight,e, S-Face
+532192	adap/G,e,S-Face
+532962	e,H 37
+533611	b,G 36
+534000	b,H 38
+534018	e,G 36
+534925	e,H 38
+535279	b,G 37
+536259	e,G 37
+537688	b,H 39
+539688	WINDOWS,e,
+541804	WINDOWS,b,
+543666	b,G 38
+543814	e,H 39
+544222	e,G 38
+545777	b,H 40
+548520	AdapRight,b, S-Face
+548520	adap/G,b,S-Face
+548537	e,H 40
+548582	AdapRight,e, S-Face
+548582	adap/G,e,S-Face
+549462	b,G 39
+551456	WINDOWS,e,
+572850	A Guest Speaking,b,S-Face t39
+572850	adap/G,b,S-Face
+572873	A Guest Speaking,e,S-Face t39
+572873	adap/G,e,S-Face
+579775	WINDOWS,b,
+580259	b,H 41
+581610	AdapRight,b, OM
+581610	A Guest Speaking,b,OM t39
+581610	adap/G,b,OM
+581633	AdapRight,e, OM
+581633	A Guest Speaking,e,OM t39
+581633	adap/G,e,OM
+581740	e,G 39
+582166	e,H 41
+582703	b,G 40
+583259	b,H 42
+583695	AdapRight,b, S-Hand
+583695	A Guest Speaking,b,S-Hand 
+583695	adap/G,b,S-Hand
+583717	AdapRight,e, S-Hand
+583717	A Guest Speaking,e,S-Hand 
+583717	adap/G,e,S-Hand
+583722	e,H 42
+583796	e,G 40
+584425	b,G 41
+586456	WINDOWS,e,
+588195	WINDOWS,b,
+588820	AdapRight,b, S-Head
+588820	A Guest Speaking,b,S-Head 
+588820	adap/G,b,S-Head
+588841	AdapRight,e, S-Head
+588841	A Guest Speaking,e,S-Head 
+588841	adap/G,e,S-Head
+590185	e,G 41
+590340	AdapRight,b, S-Face
+590340	adap/G,b,S-Face
+590361	AdapRight,e, S-Face
+590361	adap/G,e,S-Face
+592185	b,H 43
+594195	WINDOWS,e,
+597731	WINDOWS,b,
+599092	b,G 42
+599722	e,H 43
+601108	WINDOWS,e,
+612810	A Guest Speaking,b,S-Head t40 t41
+612810	adap/G,b,S-Head
+612841	A Guest Speaking,e,S-Head t40 t41
+612841	adap/G,e,S-Head
+614910	adap/H,b,OM
+614931	adap/H,e,OM
+622282	WINDOWS,b,
+624259	e,G 42
+625060	AdapRight,b, OM
+625060	adap/G,b,OM
+625119	AdapRight,e, OM
+625119	adap/G,e,OM
+628333	b,H 44
+629541	AdapRight,b, S-Face
+629541	adap/G,b,S-Face
+629567	AdapRight,e, S-Face
+629567	adap/G,e,S-Face
+630369	WINDOWS,e,
+633746	WINDOWS,b,
+635722	e,H 44
+638925	b,G 43
+640949	WINDOWS,e,
+641830	adap/H,b,OM
+641862	adap/H,e,OM
+655607	A Guest Speaking,b,S-Face t42
+655607	adap/G,b,S-Face
+655633	A Guest Speaking,e,S-Face t42
+655633	adap/G,e,S-Face
+671707	A Guest Speaking,b,S-Head t42
+671707	adap/G,b,S-Head
+671746	A Guest Speaking,e,S-Head t42
+671746	adap/G,e,S-Head
+675833	WINDOWS,b,
+677851	e,G 43
+678555	b,H 45
+680543	WINDOWS,e,
+686253	WINDOWS,b,
+687666	b,G 44
+688240	e,H 45
+690925	b,H 46
+691351	e,G 44
+691500	AdapRight,b, S-Head
+691500	adap/G,b,S-Head
+691525	AdapRight,e, S-Head
+691525	adap/G,e,S-Head
+692920	WINDOWS,e,
+693140	adap/G,b,S-Face
+693163	adap/G,e,S-Face
+693616	WINDOWS,b,
+695314	b,G 45
+695592	e,H 46
+697326	WINDOWS,e,
+697500	WINDOWS,b,
+698833	b,H 47
+699481	e,G 45
+699620	AdapRight,b, OM
+699620	adap/G,b,OM
+699638	AdapRight,e, OM
+699638	adap/G,e,OM
+700848	WINDOWS,e,
+703355	WINDOWS,b,
+705351	e,H 47
+705425	b,G 46
+707442	WINDOWS,e,
+714290	A Guest Speaking,b,S-Head t46
+714290	adap/G,b,S-Head
+714314	A Guest Speaking,e,S-Head t46
+714314	adap/G,e,S-Head
+725819	WINDOWS,b,
+726200	AdapRight,b, OM
+726200	A Guest Speaking,b,OM t46
+726200	adap/G,b,OM
+726221	AdapRight,e, OM
+726221	A Guest Speaking,e,OM t46
+726221	adap/G,e,OM
+727796	e,G 46
+728203	b,H 48
+730181	WINDOWS,e,
+734746	WINDOWS,b,
+736740	e,H 48
+736743	b,G 47
+738746	WINDOWS,e,
+739842	A Guest Speaking,b,S-Head t47 t48 t49
+739842	adap/G,b,S-Head
+739862	A Guest Speaking,e,S-Head t47 t48 t49
+739862	adap/G,e,S-Head
+742880	adap/H,b,UM
+742899	adap/H,e,UM
+745190	A Guest Speaking,b,S-Head t47 t48 t49
+745190	adap/G,b,S-Head
+745211	A Guest Speaking,e,S-Head t47 t48 t49
+745211	adap/G,e,S-Head
+751220	adap/H,b,OM
+751240	adap/H,e,OM
+757659	WINDOWS,b,
+759130	b,H 49
+759666	e,G 47
+761137	WINDOWS,e,
+765702	WINDOWS,b,
+767703	e,H 49
+767722	b,G 48
+769731	WINDOWS,e,
+782070	A Guest Speaking,b,S-Face t50
+782070	adap/G,b,S-Face
+782119	A Guest Speaking,e,S-Face t50
+782119	adap/G,e,S-Face
+782876	WINDOWS,b,
+784833	e,G 48
+786231	b,H 50
+789537	e,H 50
+790142	AdapLeft,b, OM
+790142	adap/H,b,OM
+790168	AdapLeft,e, OM
+790168	adap/H,e,OM
+790851	b,G 49
+792876	WINDOWS,e,
+819310	A Guest Speaking,b,S-Head t51
+819310	adap/G,b,S-Head
+819343	A Guest Speaking,e,S-Head t51
+819343	adap/G,e,S-Head
+822340	WINDOWS,b,
+822710	AdapRight,b, OM
+822710	A Guest Speaking,b,OM t51
+822710	adap/G,b,OM
+822761	AdapRight,e, OM
+822761	A Guest Speaking,e,OM t51
+822761	adap/G,e,OM
+824314	e,G 49
+824481	b,H 51
+826514	WINDOWS,e,
+829543	WINDOWS,b,
+831450	AdapLeft,b, OM
+831450	A Host Speaking,b,OM t57
+831450	adap/H,b,OM
+831469	AdapLeft,e, OM
+831469	A Host Speaking,e,OM t57
+831469	adap/H,e,OM
+831518	e,H 51
+831814	b,G 50
+833833	WINDOWS,e,
+859862	WINDOWS,b,
+861833	e,G 50
+862140	AdapLeft,b, S-Face
+862140	adap/H,b,S-Face
+862160	AdapLeft,e, S-Face
+862160	adap/H,e,S-Face
+862222	b,H 52
+864087	b,G 51
+864259	e,H 52
+866094	WINDOWS,e,
+870659	WINDOWS,b,
+871664	AdapRight,b, OM
+871664	A Guest Speaking,b,OM t53
+871664	adap/G,b,OM
+871679	AdapRight,e, OM
+871679	A Guest Speaking,e,OM t53
+871679	adap/G,e,OM
+872648	e,G 51
+872796	b,H 53
+874804	WINDOWS,e,
+875746	WINDOWS,b,
+877740	e,H 53
+879093	b,G 52
+881123	WINDOWS,e,
+900080	adap/H,b,S-Face
+900110	adap/H,e,S-Face
+901862	WINDOWS,b,
+901921	AdapLeft,b, OM
+901921	adap/H,b,OM
+901935	AdapLeft,e, OM
+901935	adap/H,e,OM
+903537	b,H 54
+903870	e,G 52
+904222	e,H 54
+905351	b,G 53
+907355	WINDOWS,e,
+927462	b,H 55
+927471	WINDOWS,b,
+929462	e,G 53
+929471	WINDOWS,e,
+933471	WINDOWS,b,
+935444	e,H 55
+937555	b,G 54
+939558	WINDOWS,e,
+939732	WINDOWS,b,
+941722	e,G 54
+942240	b,H 56
+943240	AdapRight,b, OM + S-Head
+943240	adap/G,b,OM + S-Head
+943256	AdapRight,e, OM + S-Head
+943256	adap/G,e,OM + S-Head
+944254	WINDOWS,e,
+946515	WINDOWS,b,
+948500	e,H 56
+948611	b,G 55
+950055	e,G 55
+950444	b,H 57
+952457	WINDOWS,e,
+956602	WINDOWS,b,
+958574	e,H 57
+959148	b,G 56
+959805	WINDOWS,e,
+959814	e,G 56
+959814	&
