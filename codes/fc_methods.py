@@ -8,47 +8,100 @@
 
 
 # Import dependencies
-from scipy import stats, linalg
+from scipy import special, spatial#, stats, linalg
 import numpy as np
 
 # Define methods
-def partial_corr(C):
+def pearson_corr(matrix):
     """
-    Returns the sample linear partial correlation coefficients between pairs of variables in C, controlling
-    for the remaining variables in C.
+    Function returns a matrix with Pearson correlation coefficients
+    between pairs of variables (columns of the matrix) along with p-values.
+    
     Parameters
     ----------
-    C : array-like, shape (n, p)
-        Array with the different variables. Each column of C is taken as a variable
+    matrix : array-like, shape (n, m)
+             Array with each column being a different variable.
+             
     Returns
     -------
-    P : array-like, shape (p, p)
-        P[i, j] contains the partial correlation of C[:, i] and C[:, j] controlling
-        for the remaining variables in C.
+    corr : array-like, shape (m, m)
+           corr[i, j] contains the partial correlation of matrix[:, i] and matrix[:, j].
+    prob : array-like, shape (m, m)
+           prob[i, j] contains the p-value of a coefficient in corr[i, j].
+    """
+    (n, m) = matrix.shape
+
+    DO = matrix - (np.sum(matrix, 0) / np.double(n))
+    # note that mean row will be applyed row-wise to original matrices
+    
+    cov = np.einsum("nt,nm->tm", DO, DO)
+
+    varO = np.sum(DO ** 2, 0)
+    tmp = np.outer(varO, varO)
+    
+    corr = cov / np.sqrt(tmp)
+    
+    df = n-2
+    
+    diag = (np.diag(np.diag(corr)))
+    corr -= diag
+    t_squared = corr*corr*(df / ((1.0 - corr) * (1.0 + corr)))
+    prob = special.betainc(0.5*df, 0.5, df / (df + t_squared))
+    np.fill_diagonal(corr, 1)
+    np.fill_diagonal(prob, 0)
+    
+    return corr, prob
+
+
+def partial_corr(matrix):
+    """
+    Returns the sample linear partial correlation coefficients between pairs of variables in a matrix,
+    controlling for the remaining variables in that matrix.
+    
+    Parameters
+    ----------
+    matrix : array-like, shape (n, m)
+             Array with the different variables. Each column of the matrix is taken as a variable.
+    
+    Returns
+    -------
+    partial : array-like, shape (m, m)
+              partial[i, j] contains the partial correlation of matrix[:, i] and matrix[:, j],
+              controlling for the remaining variables in the matrix.
+    prob : array-like, shape (m, m)
+           prob[i, j] contains the p-value of a coefficient in corr[i, j].
     """
 
-    C = np.asarray(C)
-    p = C.shape[1]
-    P_corr = np.zeros((p, p), dtype=np.float)
-    for i in range(p):
-        P_corr[i, i] = 1
-        for j in range(i+1, p):
-            idx = np.ones(p, dtype=np.bool)
-            idx[i] = False
-            idx[j] = False
-            beta_i = linalg.lstsq(C[:, idx], C[:, j])[0]
-            beta_j = linalg.lstsq(C[:, idx], C[:, i])[0]
+    n = matrix.shape[0]
+    m = matrix.shape[1]
+    ic = -np.linalg.pinv(np.cov(matrix, rowvar=0))
+    diag1 = np.tile(np.sqrt(np.abs(np.diag(ic))),[m,1]).T
+    diag2 = np.tile(np.sqrt(np.abs(np.diag(ic))),[m,1])
+    partial = ((ic/diag1)/diag2)+2*np.eye(m)
+    
+    if n > m:
+        df = n-m
+    
+        diag = (np.diag(np.diag(partial)))
+        partial -= diag
+        t_squared = partial*partial*(df / ((1.0 - partial) * (1.0 + partial)))
+        prob = special.betainc(0.5*df, 0.5, df / (df + t_squared))
+        np.fill_diagonal(partial, 1)
+        np.fill_diagonal(prob, 0)
+        return partial, prob
+    else:
+        return partial
 
-            res_j = C[:, j] - C[:, idx].dot( beta_i)
-            res_i = C[:, i] - C[:, idx].dot(beta_j)
-
-            corr = stats.pearsonr(res_i, res_j)[0]
-            P_corr[i, j] = corr
-            P_corr[j, i] = corr
-
-    return P_corr
-
-
+def distance(matrix, metric="euclidean"):
+    
+    if metric=="euclidean":
+        mat = spatial.distance.pdist(matrix.T)
+    elif metric=="manhattan":
+        mat = spatial.distance.pdist(matrix.T, metric='cityblock')
+    
+    return spatial.distance.squareform(mat)
+    
+    
 def euclidean_distance(x,y):
     """Returns euclidean distance between two lists or numpy arrays"""
     x = np.array(x)
@@ -64,17 +117,17 @@ def manhattan_distance(x,y):
 
 
 def calc_MI(X,Y,bins):
-   """Returns Shannon's mutual information between two array-like objects"""
-   c_XY = np.histogram2d(X,Y,bins)[0]
-   c_X = np.histogram(X,bins)[0]
-   c_Y = np.histogram(Y,bins)[0]
+    """Returns Shannon's mutual information between two array-like objects"""
+    c_XY = np.histogram2d(X,Y,bins)[0]
+    c_X = np.histogram(X,bins)[0]
+    c_Y = np.histogram(Y,bins)[0]
 
-   H_X = shan_entropy(c_X)
-   H_Y = shan_entropy(c_Y)
-   H_XY = shan_entropy(c_XY)
+    H_X = shan_entropy(c_X)
+    H_Y = shan_entropy(c_Y)
+    H_XY = shan_entropy(c_XY)
 
-   MI = H_X + H_Y - H_XY
-   return MI
+    MI = H_X + H_Y - H_XY
+    return MI
 
 def shan_entropy(c):
     """Retuurns Shannon's information (entropy) for arrray-like object"""
