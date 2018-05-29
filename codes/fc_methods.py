@@ -9,6 +9,7 @@
 
 # Import dependencies
 from scipy import special, spatial#, stats, linalg
+from scipy.integrate import odeint
 import numpy as np
 
 # Define methods
@@ -135,3 +136,63 @@ def shan_entropy(c):
     c_normalized = c_normalized[np.nonzero(c_normalized)]
     H = -sum(c_normalized* np.log2(c_normalized))
     return H
+
+def generate_fc(network_size=10, network_density=0.5, conn_weight =0.1):
+    # [01] derive the synthetic datasets and look into the intermediate states for Pearson versus partial correlation:
+    # UNDIRECTED case (symmetrci adhacency matrix = mutual connections):
+    
+    # network_size      = 10    number of nodes in the network
+    # network_density   = 0.5   fraction of all possible connections
+    # conn_weight       = 0.1   connectivity weight (between 0 and 1)
+
+
+    # generate a vector for all the upper diagonal terms:
+    num_comb = int(special.comb(network_size,2))
+    
+    upper_diag = np.zeros((num_comb,1))
+    fc = np.zeros((network_size,network_size))
+    
+    fc_vec = np.random.rand(len(upper_diag),1)
+    fc_vec[fc_vec > 1.0 - network_density] = 1
+    fc_vec[fc_vec < 1.0 - network_density] = 0
+
+    # fill in the upper triangular part of the FC matrix:
+    inds_upperdiag = np.triu_indices(len(fc),1)
+    fc[inds_upperdiag] = conn_weight*np.reshape(fc_vec, (num_comb,))
+    inds_lowerdiag = np.triu_indices(len(fc),-1)
+
+    # mirror upper triangular part to lower triangular:
+    inds_lowerdiag = np.tril_indices(len(fc),-1)
+    fc[inds_lowerdiag] = fc.T[inds_lowerdiag]
+
+    # introduce self-inhibition on the diagonal:
+    np.fill_diagonal(fc,-1)
+
+
+    indexes_conn = np.where(fc > 0)
+    indexes_noconn = np.where(fc == 0)
+    
+    return fc
+
+    
+def simulate_data(fcm, network_size=10, noise_level=0.1, T = 1000, dt = 0.01):
+    # noise_level       = 0.1   noise level in the system
+    # T                 = 1000  length of the simulation
+    # dt                = 0.01  time step
+
+    def deriv(x, t, adjacency):
+        return np.dot(adjacency, x) + noise_inputs[int(t*100)-20,:] # + 0.0005*np.random.normal(0,1,(network_size,1))[:,0]
+
+    adjacency = fcm
+
+    time = np.linspace(0, T, int(np.floor(T/dt)) + 1)
+    # initiate the variables at random:
+    x0 = -0.5*np.ones((network_size,1))[:,0] + np.random.normal(0,1,(network_size,1))[:,0]
+    # add noise to the system:
+    noise_inputs = noise_level*(-0.5*np.ones((len(time),network_size)) + np.random.rand(len(time),network_size))
+    synthetic_data = odeint(deriv, x0, time, args=(adjacency,))
+
+    # shorten the data by the initial 25% samples:
+    synthetic_data = synthetic_data[int(np.floor(len(time)*0.25)):,:]
+    
+    return synthetic_data
